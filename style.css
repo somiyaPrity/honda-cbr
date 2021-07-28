@@ -20,3 +20,21 @@ body{
     background-color: #E76F51;
     border-color:#E76F51 ;
 }
+
+/* feature img */
+.feature-img{
+    width: 288px;
+    height: 243px;
+}
+.img-gray{
+    filter: grayscale(1);
+}
+
+/* client */
+
+.client-icon li{
+    display: inline-block ;
+    list-style: none;
+    color: orange;
+    margin-right: 5px;
+}
