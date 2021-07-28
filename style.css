@@ -1,0 +1,22 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* banner */
+.bg-color{
+    background-color: #264653;
+}
+.btn{
+    padding: 10px 46px;
+    background-color: #E76F51;
+    margin-top: 21px;
+}
+.btn-secondary.active,  .btn-secondary:focus{
+    background-color: #E76F51;
+    border-color:#E76F51 ;
+}
