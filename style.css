@@ -72,7 +72,10 @@ body {
   color: #e76f51;
   opacity: 0.5;
 }
-
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+}
 /*form start*/
 
 .touch-form .form-control {
