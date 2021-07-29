@@ -2,99 +2,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 /* common css */
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
 }
-
 
 /* banner */
-.bg-color{
-    background-color: #264653;
+.bg-color {
+  background-color: #264653;
 }
-.btn{
-    padding: 10px 46px;
-    background-color: #E76F51;
-    margin-top: 21px;
+.btn {
+  padding: 10px 46px;
+  background-color: #e76f51;
+  margin-top: 21px;
 }
-.btn-secondary.active,  .btn-secondary:focus{
-    background-color: #E76F51;
-    border-color:none ;
+.btn-secondary.active,
+.btn-secondary:focus {
+  background-color: #e76f51;
+  border-color: none;
 }
 
 /* feature img */
-.feature-img{
-    width: 288px;
-    height: 243px;
+.feature-img {
+  width: 288px;
+  height: 243px;
 }
-.img-gray{
-    filter: grayscale(1);
+.img-gray {
+  filter: grayscale(1);
 }
 
 /* client */
 
-.client-icon li{
-    display: inline-block ;
-    list-style: none;
-    color: orange;
-    margin-right: 5px;
+.client-icon li {
+  display: inline-block;
+  list-style: none;
+  color: orange;
+  margin-right: 5px;
 }
+
 /* question */
-.dropbutton{
-    width: 600px;
+.accordion-button {
+  color: #e76f51;
 }
-.dropdown-toggle {
-    white-space: normal;
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #fff;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
 }
 /* new item */
-.carousel-indicators{
-    margin-bottom: -3rem;
+.carousel-indicators {
+  margin-bottom: -3rem;
 }
-.carousel-indicators [data-bs-target]{
-    background-color: #E76F51;
+.carousel-indicators [data-bs-target] {
+  background-color: #e76f51;
 }
-.carousel-control-next, .carousel-control-prev {
-    color: #E76F51;
-    font-size: 24px;
-    opacity: 1;
+.carousel-control-next,
+.carousel-control-prev {
+  color: #e76f51;
+  font-size: 24px;
+  opacity: 1;
 }
-.carousel-control-next:focus, 
-.carousel-control-next:hover, 
-.carousel-control-prev:focus, 
-.carousel-control-prev:hover{
-    color: #E76F51;
-    opacity: 0.5;
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  color: #e76f51;
+  opacity: 0.5;
 }
 
 /*form start*/
 
 .touch-form .form-control {
-    margin-bottom: 30px;
-    height: 50px;
-    border-color: #353535;
-    color: #555555;
-    border-radius: 8px;
-
+  margin-bottom: 30px;
+  height: 50px;
+  border-color: #353535;
+  color: #555555;
+  border-radius: 8px;
 }
 
 .txt-box {
-    height: 200px !important;
-    resize: none;
-}
-
-
-
-/* responsive */
-@media only screen and (max-width: 688px) {
-    .dropbutton{
-        width: 280px;
-    } 
-    .question-drop{
-        text-align: center !important;
-    }
-}
-
-@media only screen and (min-width: 688px) and (max-width: 992px){
-    .dropbutton{
-        width: 400px;
-    }
+  height: 200px !important;
+  resize: none;
 }
