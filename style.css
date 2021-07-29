@@ -18,7 +18,7 @@ body{
 }
 .btn-secondary.active,  .btn-secondary:focus{
     background-color: #E76F51;
-    border-color:#E76F51 ;
+    border-color:none ;
 }
 
 /* feature img */
@@ -37,4 +37,64 @@ body{
     list-style: none;
     color: orange;
     margin-right: 5px;
+}
+/* question */
+.dropbutton{
+    width: 600px;
+}
+.dropdown-toggle {
+    white-space: normal;
+}
+/* sale item */
+.carousel-indicators{
+    margin-bottom: -3rem;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #E76F51;
+}
+.carousel-control-next, .carousel-control-prev {
+    color: #E76F51;
+    font-size: 24px;
+    opacity: 1;
+}
+.carousel-control-next:focus, 
+.carousel-control-next:hover, 
+.carousel-control-prev:focus, 
+.carousel-control-prev:hover{
+    color: #E76F51;
+    opacity: 0.5;
+}
+
+/*form start*/
+
+.touch-form .form-control {
+    margin-bottom: 30px;
+    height: 50px;
+    border-color: #353535;
+    color: #555555;
+    border-radius: 8px;
+
+}
+
+.txt-box {
+    height: 200px !important;
+    resize: none;
+}
+
+
+
+/* responsive */
+@media only screen and (max-width: 688px) {
+    .dropbutton{
+        width: 280px;
+    } 
+    .question-drop{
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .dropbutton{
+        width: 400px;
+    }
 }
